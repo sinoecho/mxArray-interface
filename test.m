@@ -1,7 +1,7 @@
 function B=test(A)
 % get dimensions of data
 dims=size(A); % dimensions
-dimseq=prod(dims==[1044,1408,800]); % dimseq==1 correct dim
+dimseq=prod(dims==[1044,1408,800]); % dimseq==1 correct dims
 
 % intended class and dimensions
 if dimseq==0 & isa(A,'uint16')==0
