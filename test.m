@@ -1,4 +1,6 @@
 function B=test(A)
+% input A: mxArray
+% output B: string with error msg as content
 % get dimensions of data
 dims=size(A); % dimensions
 dimseq=prod(dims==[1044,1408,800]); % dimseq==1 correct dims
